@@ -1,0 +1,24 @@
+name: wgs1
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - fastqc
+  - trimmomatic
+  - seqkit
+  - bbmap
+  - spades
+  - flye
+  - minimap2
+  - racon
+  - pilon
+  - bwa
+  - samtools
+  - bcftools
+  - quast
+  - unicycler
+  - pip:
+    - medaka>=1.8
+    

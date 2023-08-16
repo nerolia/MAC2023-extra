@@ -1,0 +1,9 @@
+name: wgs2
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - prokka
+  - diamond
+  - proovframe
