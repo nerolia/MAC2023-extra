@@ -3,7 +3,7 @@
 source activate wgs1
 
 # view ref
-seqkit stat data/wgs/ncbi_pacbio_TL110.fasta
+seqkit stat data/wgs/*.fastq.gz data/wgs/ncbi_pacbio_TL110.fasta
 
 # fastqc
 mkdir -p fastqc/illumina fastqc/ont_r10
